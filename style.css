@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    font-family: "Karla", sans-serif;
+}
+
+.main-content{
+    background: linear-gradient(249.3deg, rgba(240, 240, 240, 0.62) 2.6%, #FFFFFF 44.35%, #FFFFFF 100%);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.selection-menu-header{
+    font-weight: 600;
+    font-size: 45px;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-selection-menu-service{
+    border: 1px solid #EBEBEB;
+    padding: 5px 5px 5px 5px !important;
+    border-radius: 8px;
+    width: 570px !important;
+    background-color: #FEFEFE;
+}
+
+.selection-menu-service-icon{
+    font-size: 16px !important; 
+    color: #626262 !important;
+}
+
+.nav-link-selection-menu-service{
+    font-size: 16px !important;
+    color: #626262 !important;
+    padding: 8px 20px 8px 20px !important;
+    border-radius: 8px !important;
+}
+
+.nav-link-selection-menu-service svg > * {
+    stroke : #626262;
+}
+
+.nav-link-selection-menu-service.active-service svg > * {
+    stroke :white !important;
+}
+
+.active-service {
+    color: #fff !important;
+    background-color: #eb1c23 !important;
+}
+
+.nav-anti-karat-selection-menu .nav-link-anti-karat-selection-menu , .nav-anti-karat-selection-menu .nav-link-anti-karat-selection-menu:hover , .nav-tune-up-selection-menu .nav-link-tune-up-selection-menu , .nav-tune-up-selection-menu .nav-link-tune-up-selection-menu:hover {
+    color: #626262;
+}
+
+.nav-anti-karat-selection-menu .nav-link-anti-karat-selection-menu.active, .nav-anti-karat-selection-menu .show>.nav-link-anti-karat-selection-menu , .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-bottom: 1px solid #eb1c23;
+    border-radius: 0;
+    background-color: transparent !important;
+    color: #eb1c23 !important;
+    font-weight: 500;
+}
+
+.content-selection-menu-left-header{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.content-selection-menu-left-title{
+    font-size: 13px;
+    color: #6B6B6B;
+    line-height: 30px;
+}
+
+.btn-apa-itu{
+    background-color: #eb1c23 !important;
+    color: #fff;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+@media only screen and (min-width: 601px) and (max-width:767px) {
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .second-content-header{
+        font-size: 25px;
+    }
+}
